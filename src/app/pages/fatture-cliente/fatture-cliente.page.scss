@@ -1,0 +1,36 @@
+.table{
+  margin-top: 80px;
+}
+
+thead {
+  background-color: #9ab9ca;
+  height: 50px;
+}
+
+td{
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,228,240,1) 98%, rgba(144,162,232,1) 100%, rgba(218,249,255,1) 100%);}
+
+.btnViola{
+  background-color: #4A5E55;
+  border: none;
+}
+.btnViola:hover{
+  background-color: #394741;
+}
+
+.btnLilla{
+  background-color: #9ab9ca;
+  border: none;
+}
+
+.btnLilla:hover{
+  background-color: #7d99a8;
+}
+
+.btnRosso{
+  background-color: #C14B4B;
+}
+
+.btnRosso:hover{
+  background-color: #9b3d3d;
+}

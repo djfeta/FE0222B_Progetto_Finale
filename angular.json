@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FE0222B_Progetto_Finale": {
+    "progettofinaleepicode": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/fe0222-b-progetto-finale",
+            "outputPath": "dist/progettofinaleepicode",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "FE0222B_Progetto_Finale:build:production"
+              "browserTarget": "progettofinaleepicode:build:production"
             },
             "development": {
-              "browserTarget": "FE0222B_Progetto_Finale:build:development"
+              "browserTarget": "progettofinaleepicode:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "FE0222B_Progetto_Finale:build"
+            "browserTarget": "progettofinaleepicode:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "FE0222B_Progetto_Finale"
+  "defaultProject": "progettofinaleepicode"
 }
